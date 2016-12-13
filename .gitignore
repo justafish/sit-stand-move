@@ -1,5 +1,7 @@
+.DS_STORE
 .idea
 dist
 moveme-darwin-*
 node_modules
 npm-debug.log
+yarn-error.log

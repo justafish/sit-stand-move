@@ -1,17 +1,33 @@
-<!doctype html>
+<!doctype html lang="en">
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>MoveMe</title>
+      <meta charset="utf-8">
+      <title>MoveMe</title>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
       <script>
-        window.nodeRequire = require;
         delete window.require;
         delete window.exports;
         delete window.module;
       </script>
+      <style>
+        body {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+
+        h4 {
+          margin: 0;
+        }
+
+        .panel {
+          margin: 0;
+        }
+      </style>
     </head>
     <body>
-      <div id="root"></div>
+      <div id="root">Loading...</div>
       <script type="text/javascript" src="dist/bundle.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" />
     </body>
 </html>
