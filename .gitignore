@@ -1,7 +1,8 @@
 .DS_STORE
 .idea
 dist
-moveme-darwin-*
+sit-stand-move-darwin-*
 node_modules
 npm-debug.log
 yarn-error.log
+
